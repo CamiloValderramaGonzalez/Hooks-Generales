@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <LoginScreen /> Debe mostrarse correctamente 1`] = `
+<div>
+  <h1>
+     LoginScreen
+  </h1>
+  <hr />
+  <div
+    className="input-group mb-3"
+  >
+    <span
+      className="input-group-text"
+      id="basic-addon1"
+    >
+      @
+    </span>
+    <input
+      aria-describedby="basic-addon1"
+      aria-label="Username"
+      className="form-control"
+      onChange={[Function]}
+      placeholder="Username"
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="input-group mb-3"
+  >
+    <input
+      aria-describedby="basic-addon2"
+      aria-label="email"
+      className="form-control"
+      onChange={[Function]}
+      placeholder="email"
+      type="text"
+      value=""
+    />
+    <span
+      className="input-group-text"
+      id="basic-addon2"
+    >
+      @example.com
+    </span>
+  </div>
+  <button
+    className="btn btn-primary"
+    onClick={[Function]}
+  >
+    Guardar
+  </button>
+</div>
+`;
